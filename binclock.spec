@@ -5,7 +5,8 @@ Version:	1.5
 Release:	1
 License:	GPL
 Group:		Applications/Console
-Source0:	%{name}-%{version}.tar.gz
+Source0:	http://www.ngolde.de/%{name}-%{version}.tar.gz
+# Source0-md5:	d26ea67970c782ee56c87595ed3bfef0
 URL:		http://www.ngolde.de/binclock/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
