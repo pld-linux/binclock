@@ -28,10 +28,10 @@ mo¿e byæ uruchomiony w pêtli i aktualizowaæ czas co sekunde.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1,%{_sysconfdir}}
 install binclock $RPM_BUILD_ROOT%{_bindir}/binclock
 install doc/binclock.1 $RPM_BUILD_ROOT%{_mandir}/man1/binclock.1
-
+install binclockrc $RPM_BUILD_ROOT%{_sysconfdir}/binclockrc
 %clean
 rm -rf $RPM_BUILD_ROOT
 
@@ -40,4 +40,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc CHANGELOG COPYING README
 %attr(755,root,root) %{_bindir}/*
+%attr(644,root,root) %{_sysconfdir}/binclockrc
 %{_mandir}/man1/binclock.1*
