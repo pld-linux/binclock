@@ -1,5 +1,5 @@
-Summary:	Displays system time in binary format
-Summary(pl):	Wy¶wietla czas w formacie binarnym
+Summary:	Display system time in binary format
+Summary(pl):	Wy¶wietlanie czasu w formacie binarnym
 Name:		binclock
 Version:	1.5
 Release:	1
@@ -43,5 +43,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc CHANGELOG README
 %attr(755,root,root) %{_bindir}/*
-%{_sysconfdir}/binclockrc
+%config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/binclockrc
 %{_mandir}/man1/binclock.1*
