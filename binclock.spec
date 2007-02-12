@@ -1,5 +1,5 @@
 Summary:	Display system time in binary format
-Summary(pl.UTF-8):   Wyświetlanie czasu w formacie binarnym
+Summary(pl.UTF-8):	Wyświetlanie czasu w formacie binarnym
 Name:		binclock
 Version:	1.5
 Release:	1
