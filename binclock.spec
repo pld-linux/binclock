@@ -1,5 +1,5 @@
 Summary:	Display system time in binary format
-Summary(pl):	Wy¶wietlanie czasu w formacie binarnym
+Summary(pl.UTF-8):   WyÅ›wietlanie czasu w formacie binarnym
 Name:		binclock
 Version:	1.5
 Release:	1
@@ -15,10 +15,10 @@ BinClock is a program which shows the system time in a binary format.
 It supports showing the time with eight different colors, and it can
 run a loop that prints the time every second.
 
-%description -l pl
-BinClock jest programem, który pokazuje czas u¿ywaj±c formatu
-binarnego. Czas pokazywany jest za pomoc± 8 ró¿nych kolorów. Program
-mo¿e byæ uruchomiony w pêtli i aktualizowaæ czas co sekundê.
+%description -l pl.UTF-8
+BinClock jest programem, ktÃ³ry pokazuje czas uÅ¼ywajÄ…c formatu
+binarnego. Czas pokazywany jest za pomocÄ… 8 rÃ³Å¼nych kolorÃ³w. Program
+moÅ¼e byÄ‡ uruchomiony w pÄ™tli i aktualizowaÄ‡ czas co sekundÄ™.
 
 %prep
 %setup -q
